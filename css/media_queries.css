@@ -18,13 +18,16 @@
     /* =========== HOME =========== */
 
     .home-right .icon-1 {
-        top: 250px;
+      top: 396px;
+      right: 310px;
+      left: 457px;
+    
     }
 
     .home-right .icon-2 {
         display: block;
-        top: 370px;
-        right: 50px;
+        top: 268px;
+        right: 126px;
     }
 
     .home-right .icon-3 {

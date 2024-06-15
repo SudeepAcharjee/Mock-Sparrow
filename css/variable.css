@@ -188,3 +188,11 @@
 .nav-item:hover .dropbtn {
     background-color: #555;
 }
+.core-features-video {
+    width: 100%; /* Set the width to 100% of its container */ /* Set a maximum width */
+    height: 100%; /* Maintain aspect ratio */
+     /* Ensures it behaves like a block element */
+    margin: 2 auto; /* Center the video horizontally */
+    /* Optional: Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual effect */
+  }
