@@ -1360,3 +1360,8 @@ footer {
 .copyright a:hover {
     color: var(--ultramarine-blue);
 }
+.footer-logo img {
+    max-width: 70px;    /* Ensure the logo is responsive */
+    height: auto;       /* Maintain the aspect ratio */
+    display: inline-block; /* Ensure the image is an inline-block for centering */
+}
