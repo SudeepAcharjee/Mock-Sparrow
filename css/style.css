@@ -133,6 +133,7 @@ html {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    height: auto;
     width: 100%;
     max-width: 1440px;
     background: hsla(0, 0%, 100%, 0.9);
@@ -202,7 +203,8 @@ html {
 }
 
 .nav-toggle-btn {
-    background: var(--red-orange-color-wheel);
+    background-color: black;
+
     width: 50px;
     height: 50px;
     border-radius: 8px;
@@ -214,7 +216,7 @@ html {
 }
 
 .nav-toggle-btn span {
-    background: var(--white);
+
     width: 30px;
     height: 2px;
     transition: var(--default-transition);
