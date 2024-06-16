@@ -1,5 +1,46 @@
 import React from 'react'
 import Header from './Header'
+
+
+// Import images
+import shape1 from '../Assets/img/shape-1.png';
+import shape2 from '../Assets/img/shape-2.png';
+import shape3 from '../Assets/img/shape-3.png';
+import shape4 from '../Assets/img/shape-4.png';
+import bannerLine from '../Assets/img/banner-line.png';
+import bannerAlimentIcon1 from '../Assets/img/banner-aliment-icon-1.png';
+import bannerAlimentIcon2 from '../Assets/img/banner-aliment-icon-2.png';
+import bannerAlimentIcon3 from '../Assets/img/banner-aliment-icon-3.png';
+import bannerAlimentIcon4 from '../Assets/img/banner-aliment-icon-4.png';
+import featureIcon1 from '../Assets/img/feature-icon-1.png';
+import featureIcon2 from '../Assets/img/feature-icon-2.png';
+import featureIcon3 from '../Assets/img/feature-icon-3.png';
+import quoteImg from '../Assets/img/quote.png';
+import clientImg from '../Assets/img/client.jpg';
+import ctaBgImg from '../Assets/img/cta-bg-img.png';
+import Logo from '../Assets/logo.png';
+
+
+import courseCategoryIcon1 from '../Assets/img/course-category-icon-1.png';
+import courseCategoryIcon1w from '../Assets/img/course-category-icon-1-w.png';
+import courseCategoryIcon2 from '../Assets/img/course-category-icon-2.png';
+import courseCategoryIcon2w from '../Assets/img/course-category-icon-2-w.png';
+import courseCategoryIcon3 from '../Assets/img/course-category-icon-3.png';
+import courseCategoryIcon3w from '../Assets/img/course-category-icon-3-w.png';
+import courseCategoryIcon4 from '../Assets/img/course-category-icon-4.png';
+import courseCategoryIcon4w from '../Assets/img/course-category-icon-4-w.png';
+import courseCategoryIcon5 from '../Assets/img/course-category-icon-5.png';
+import courseCategoryIcon5w from '../Assets/img/course-category-icon-5-w.png';
+import courseCategoryIcon6 from '../Assets/img/course-category-icon-6.png';
+import courseCategoryIcon6w from '../Assets/img/course-category-icon-6-w.png';
+
+
+// Import videos
+import boyOnlineTestVideo from '../Assets/anime/Boy Giving Online Test(1).mp4';
+import onlineExamVideo from '../Assets/anime/Online Exam(3).mp4';
+import onlineTestVideo from '../Assets/anime/Online Test.mp4';
+
+
 function Home() {
   return (
     <>
@@ -9,7 +50,7 @@ function Home() {
     <section className="home" id="home" data-aos="fade-up">
       <div className="deco-shape shape-1" data-aos="fade-up">
         <img
-          src="./img/shape-1.png"
+          src={shape1}
           alt="art shape"
           width={78}
           className="icon scroll-anim"
@@ -17,7 +58,7 @@ function Home() {
       </div>
       <div className="deco-shape shape-2">
         <img
-          src="./img/shape-2.png"
+          src={shape2}
           alt="art shape"
           width={55}
           className="icon scroll-anim"
@@ -25,7 +66,7 @@ function Home() {
       </div>
       <div className="deco-shape shape-3">
         <img
-          src="./img/shape-3.png"
+          src={shape3}
           alt="art shape"
           width={120}
           className="icon scroll-anim"
@@ -33,7 +74,7 @@ function Home() {
       </div>
       <div className="deco-shape shape-4">
         <img
-          src="./img/shape-4.png"
+          src={shape4}
           alt="art shape"
           width={30}
           className="icon scroll-anim"
@@ -45,7 +86,7 @@ function Home() {
           Clear your dream exam on first attempt
           <span className="underline-img">
             {" "}
-            <img src="./img/banner-line.png" alt="Line" />
+            <img src={bannerLine} alt="Line" />
           </span>
         </h1>
         <p className="section-text">
@@ -67,7 +108,7 @@ function Home() {
         <div className="img-box">
          
           <video id="transparentVideo"
-        src={`./anime/Boy Giving Online Test(1).mp4`}
+        src={boyOnlineTestVideo}
         className="core-features-video"
         autoPlay
         muted
@@ -75,31 +116,33 @@ function Home() {
 
       ></video>
           <img
-            src="./img/banner-aliment-icon-1.png"
+            src={bannerAlimentIcon1}
             alt=""
             className="icon-1 smooth-zigzag-anim-1"
             width={240}
           />
           <img
-            src="./img/banner-aliment-icon-2.png"
+            src={bannerAlimentIcon2}
             alt=""
             className="icon-2 smooth-zigzag-anim-2"
             width={240}
           />
           <img
-            src="./img/banner-aliment-icon-1.png"
+            src={bannerAlimentIcon3}
             alt=""
             className="icon-3 smooth-zigzag-anim-3"
             width={195}
           />
           <img
-            src="./img/banner-aliment-icon-4.png"
+            src={bannerAlimentIcon4}
             alt=""
             className="icon-4 drop-anim"
           />
         </div>
       </div>
     </section>
+
+    {/* -----------------------Course Category---------------------- */}
     <section className="category" data-aos="fade-up">
       <p className="section-subtitle">Course Category</p>
       <h2 className="section-title">Explore Popular Courses</h2>
@@ -107,12 +150,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-1.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-1-w.png"
+              src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -127,12 +170,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-2.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-2-w.png"
+              src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -147,12 +190,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-3.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-3-w.png"
+             src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -167,12 +210,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-4.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-4-w.png"
+             src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -187,12 +230,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-5.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-5-w.png"
+              src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -207,12 +250,12 @@ function Home() {
         <li className="course-category-item">
           <div className="wrapper">
             <img
-              src="./img/course-category-icon-6.png"
+              src={courseCategoryIcon2}
               alt="category icon"
               className="category-icon default"
             />
             <img
-              src="./img/course-category-icon-6-w.png"
+              src={courseCategoryIcon2w}
               alt="category icon white"
               className="category-icon hover"
             />
@@ -226,13 +269,15 @@ function Home() {
         </li>
       </ul>
     </section>
+
+
     {/*----------------- ABOUT SECTION -----------------*/}
     <section className="about" id="about" data-aos="fade-up">
       <div className="about-left">
         <div className="img-box">
           
         <video
-        src={`./anime/Online Exam(3).mp4`}
+        src={onlineExamVideo}
         className="core-features-video"
         autoPlay
         muted
@@ -285,6 +330,9 @@ function Home() {
         </button>
       </div>
     </section>
+
+
+
     {/*----------------- FEATURES SECTION -----------------*/}
     <section className="features" data-aos="fade-up">
       <div className="features-left">
@@ -293,7 +341,7 @@ function Home() {
         <ul>
           <li className="features-item">
             <div className="item-icon-box blue">
-              <img src="./img/feature-icon-1.png" alt="feature icon" />
+              <img src={featureIcon1} alt="feature icon" />
             </div>
             <div className="wrapper">
               <h3 className="item-title">Student Life</h3>
@@ -305,7 +353,7 @@ function Home() {
           </li>
           <li className="features-item">
             <div className="item-icon-box pink">
-              <img src="./img/feature-icon-2.png" alt="feature icon" />
+              <img src={featureIcon2} alt="feature icon" />
             </div>
             <div className="wrapper">
               <h3 className="item-title">Best Online Class</h3>
@@ -317,7 +365,7 @@ function Home() {
           </li>
           <li className="features-item">
             <div className="item-icon-box purple">
-              <img src="./img/feature-icon-3.png" alt="feature icon" />
+              <img src={featureIcon3} alt="feature icon" />
             </div>
             <div className="wrapper">
               <h3 className="item-title">24/7 Program</h3>
@@ -329,9 +377,8 @@ function Home() {
           </li>
         </ul>
       </div>
-      
       <video
-        src={`./anime/Online Test.mp4`}
+        src={onlineTestVideo}
         className="core-features-video"
         autoPlay
         muted
@@ -340,6 +387,9 @@ function Home() {
         Your browser does not support the video tag.
       </video>
     </section>
+
+
+
     {/*----------------- FAQ SECTION -----------------*/}
     {/* FAQ 2 - Bootstrap Brain Component */}
     <div className="wrapper" data-aos="fade-up">
@@ -428,6 +478,9 @@ function Home() {
         </div>
       </div>
     </div>
+
+
+
     {/*----------------- TESTIMONIALS -----------------*/}
     <section className="testimonials" data-aos="fade-up">
       <div className="testimonials-left">
@@ -441,7 +494,7 @@ function Home() {
       </div>
       <div className="testimonials-right">
         <div className="testimonials-card">
-          <img src="./img/quote.png" alt="quote icon" className="quote-img" />
+          <img src={quoteImg} alt="quote icon" className="quote-img" />
           <p className="testimonials-text">
             "Lorem ipsum dolor sit amet consectetur adipiscing elit fringilla
             feugiat platea rhoncus ut aliquam luctus, tempor massa hac ante leo
@@ -449,7 +502,7 @@ function Home() {
           </p>
           <div className="testimonials-client">
             <div className="client-img-box">
-              <img src="./img/client.jpg" alt="client" />
+              <img src={clientImg} alt="client" />
             </div>
             <div className="client-detail">
               <h4 className="client-name">Muthiah</h4>
@@ -459,26 +512,32 @@ function Home() {
         </div>
       </div>
     </section>
+
+
+    {/*----------------- CONTACT -----------------*/}
     <section className="contact" data-aos="fade-up">
       <div className="contact-card" id="contact">
         <img
-          src="./img/cta-bg-img.png"
+          src={ctaBgImg}
           alt="shape"
           className="contact-card-bg"
         />
-        <h2>Start Your Best Online Classes WIth Us</h2>
+        <h2>Start Your Best Online Classes With Us</h2>
         <button className="btn btn-primary">
           <p className="btn-text">Contact Us</p>
           <span className="square" />
         </button>
       </div>
     </section>
+
+
+
     {/*----------------- FOOTER -----------------*/}
     <footer>
       <div className="footer-grid" data-aos="fade-up">
         <div className="grid-item">
           <div className="footer-logo">
-            <img src="./logo.png" alt="Mock-Sparrow" />
+            <img src={Logo} alt="Mock-Sparrow" />
             <h1>Mock-Sparrow</h1>
           </div>
           <p className="footer-text">
@@ -538,9 +597,9 @@ function Home() {
           </li>
         </ul>
         <div className="grid-item">
-          <h4 className="item-heading">Mail-us</h4>
+        
           <div className="wrapper">
-            <input type="text" name="subscribe" placeholder="Email Address" />
+            <input type="text" name="subscribe" placeholder="Feedback" />
             <button className="send-btn">
               <ion-icon name="paper-plane" />
             </button>
