@@ -270,7 +270,7 @@
 }
 
 /* Responsive styling */
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .navbar-nav {
     display: none;
     flex-direction: column;
