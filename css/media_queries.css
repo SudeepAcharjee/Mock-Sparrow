@@ -373,4 +373,13 @@
   
     .contact-card h2 { font-size: 45px; }
   
-}
+
+  }
+
+  @media (max-width: 998px) {
+  
+    .hambuger-menu{
+      display: none;
+       }
+      }
+

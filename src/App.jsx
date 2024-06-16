@@ -6,11 +6,16 @@ import About from './components/About';
 import Contact from './components/Contact';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Services from './components/Services';
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
     <BrowserRouter>
+   
     <Header />
+    
   <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About />}/>
@@ -18,6 +23,7 @@ function App() {
   <Route path="/privacypolicy" element={<PrivacyPolicy />}/>
   <Route path="/services" element={<Services />}/>
   </Routes>
+  <Footer/>
   </BrowserRouter>
   )
 }

@@ -1234,9 +1234,11 @@ testimonials-right {
 
 footer {
     background: var(--oxford-blue);
+    
 }
 
 .footer-grid {
+    
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;

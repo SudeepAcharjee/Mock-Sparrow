@@ -18,7 +18,7 @@ import featureIcon3 from '../Assets/img/feature-icon-3.png';
 import quoteImg from '../Assets/img/quote.png';
 import clientImg from '../Assets/img/client.jpg';
 import ctaBgImg from '../Assets/img/cta-bg-img.png';
-import Logo from '../Assets/logo.png';
+
 
 
 import courseCategoryIcon1 from '../Assets/img/course-category-icon-1.png';
@@ -41,10 +41,12 @@ import onlineExamVideo from '../Assets/anime/Online Exam(3).mp4';
 import onlineTestVideo from '../Assets/anime/Online Test.mp4';
 
 
+
 function Home() {
   return (
     <>
-<Header/>
+
+
   <main className="new" data-aos="fade-up">
     {/*----------------- HOME SECTION -----------------*/}
     <section className="home" id="home" data-aos="fade-up">
@@ -396,86 +398,7 @@ function Home() {
       <p>The Begninning of a New Asset class</p>
       <h1>Frequently Asked Questions</h1>
       <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Krushi is a Public Charitable Trust designed to carry out farming on
-            extensive scale Natural &amp; Sustainable methods.
-          </p>
-        </div>
-      </div>
-      <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
-            ullam, iure eligendi harum eaque hic corporis debitis porro
-            consectetur voluptate rem officiis architecto.
-          </p>
-        </div>
-      </div>
-      <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
-            ullam, iure eligendi harum eaque hic corporis debitis porro
-            consectetur voluptate rem officiis architecto.
-          </p>
-        </div>
-      </div>
-      <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
-            ullam, iure eligendi harum eaque hic corporis debitis porro
-            consectetur voluptate rem officiis architecto.
-          </p>
-        </div>
-      </div>
-      <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
-            ullam, iure eligendi harum eaque hic corporis debitis porro
-            consectetur voluptate rem officiis architecto.
-          </p>
-        </div>
-      </div>
-      <div className="faq">
-        <button className="accordion">
-          TEST?
-          <i className="fa-solid fa-chevron-down" />
-        </button>
-        <div className="pannel">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
-            ullam, iure eligendi harum eaque hic corporis debitis porro
-            consectetur voluptate rem officiis architecto.
-          </p>
-        </div>
+      {/* code here */}
       </div>
     </div>
 
@@ -533,7 +456,7 @@ function Home() {
 
 
     {/*----------------- FOOTER -----------------*/}
-    <footer>
+    {/* <footer>
       <div className="footer-grid" data-aos="fade-up">
         <div className="grid-item">
           <div className="footer-logo">
@@ -609,7 +532,7 @@ function Home() {
       <p className="copyright">
         Copyright © 2022-23 Mock-Sparrow. All rights reserved.
       </p>
-    </footer>
+    </footer> */}
   </main>
 </>
 
