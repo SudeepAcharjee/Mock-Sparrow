@@ -1,6 +1,9 @@
 import React from 'react'
-import Header from './Header'
-
+import '../Assets/css/style.css'
+import '../Assets/css/style.css'
+import '../Assets/css/variable.css'
+import '../Assets/css/media_queries.css'
+import '../Assets/css/animation.css'
 
 // Import images
 import shape1 from '../Assets/img/shape-1.png';

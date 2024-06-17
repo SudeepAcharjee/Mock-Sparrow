@@ -1245,9 +1245,11 @@ footer {
     padding: 220px var(--px) 80px;
 }
 
-.footer-logo {
+/* .footer-logo {
     margin-bottom: 25px;
-}
+     max-width: 100px; /* Adjust the size as needed 
+    height: auto; 
+} */
 
 .footer-text {
     font-family: 'Montserrat', sans-serif;
@@ -1365,7 +1367,6 @@ footer {
     color: var(--ultramarine-blue);
 }
 .footer-logo img {
-    max-width: 70px;    /* Ensure the logo is responsive */
-    height: auto;       /* Maintain the aspect ratio */
-    display: inline-block; /* Ensure the image is an inline-block for centering */
+size: 10%;
+
 }

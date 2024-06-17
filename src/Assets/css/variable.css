@@ -130,9 +130,9 @@
 
 /* Image styling */
 .footer-logo img {
-    max-width: 100%; /* Ensure the logo is responsive */
-    height: auto; /* Maintain the aspect ratio */
-    margin-bottom: 10px; /* Space between the image and the text */
+  max-width: 70px;
+  height: auto;
+  vertical-align: middle; /* Align the image vertically */
 }
 
 .footer-logo h1 {
@@ -308,3 +308,33 @@
     margin: 4px;
   }
 }
+
+/* 
+.terms-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+} */
+
+/*ul {
+  list-style-type: disc;
+  margin-left: 20px;
+} */
