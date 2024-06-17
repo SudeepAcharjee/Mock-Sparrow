@@ -162,10 +162,10 @@ header .toggle {
   }
   header .small {
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     left: 0;
     width: 100%;
-    background-color: #fffafae6;
+    background-color: #fffafa;
     align-items: center;
     padding: 20px;
     text-align: center;
