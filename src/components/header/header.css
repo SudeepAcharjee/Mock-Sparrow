@@ -143,7 +143,7 @@ header .toggle {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 998px) {
   header {
     padding: 0;
   }
@@ -165,7 +165,7 @@ header .toggle {
     top: 10vh;
     left: 0;
     width: 100%;
-    background-color: #4e4e4e;
+    background-color: #fffafae6;
     align-items: center;
     padding: 20px;
     text-align: center;
@@ -175,7 +175,11 @@ header .toggle {
     align-items: center;
     display: inline-block;
     margin-bottom: 20px;
-    color: #fff;
+    color: #090909;
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: 600;
+    
   }
   .logo {
     max-width: 70px;
@@ -194,4 +198,7 @@ main {
 /* Ensure no top margin on the first element inside the main content */
 main > *:first-child {
   margin-top: 0;
+}
+.fa fa-times{
+  height: 100%;
 }
