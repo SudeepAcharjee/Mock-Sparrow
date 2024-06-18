@@ -4,6 +4,10 @@ export const nav = [
       path: "/",
     },
     {
+      text: "Exam",
+      path: "/",
+    },
+    {
         text: "Class",
         path: "https://sudeep-acharjee.me",
       },

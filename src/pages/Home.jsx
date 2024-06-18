@@ -121,7 +121,7 @@ function Home() {
         loop
 
       ></video>
-          <img
+          {/* <img
             src={bannerAlimentIcon1}
             alt=""
             className="icon-1 smooth-zigzag-anim-1"
@@ -138,7 +138,7 @@ function Home() {
             alt=""
             className="icon-3 smooth-zigzag-anim-3"
             width={195}
-          />
+          /> */}
           <img
             src={bannerAlimentIcon4}
             alt=""
@@ -188,7 +188,7 @@ function Home() {
           </div>
           <div className="course-category-content">
             <h3 className="category-title">
-              <a href="#">JEE</a>
+              <a href="#">NPSC</a>
             </h3>
             <p className="category-subtitle">Testing </p>
           </div>
@@ -208,12 +208,12 @@ function Home() {
           </div>
           <div className="course-category-content">
             <h3 className="category-title">
-              <a href="#">NEET</a>
+              <a href="#">Others</a>
             </h3>
             <p className="category-subtitle">vffevrfw</p>
           </div>
         </li>
-        <li className="course-category-item">
+        {/* <li className="course-category-item">
           <div className="wrapper">
             <img
               src={courseCategoryIcon2}
@@ -226,7 +226,7 @@ function Home() {
               className="category-icon hover"
             />
           </div>
-          <div className="course-category-content">
+           <div className="course-category-content">
             <h3 className="category-title">
               <a href="#">APSC</a>
             </h3>
@@ -271,8 +271,8 @@ function Home() {
               <a href="#">Others</a>
             </h3>
             <p className="category-subtitle">testing</p>
-          </div>
-        </li>
+          </div> 
+        </li>*/}
       </ul>
     </section>
 
@@ -440,25 +440,10 @@ function Home() {
         </div>
       </div> */}
             <Review />
-            <br/><br/><br/><br/><br/><br/>
 
 
 
-    {/*----------------- CONTACT -----------------*/}
-    <section className="contact" data-aos="fade-up">
-      <div className="contact-card" id="contact">
-        <img
-          src={ctaBgImg}
-          alt="shape"
-          className="contact-card-bg"
-        />
-        <h2>Start Your Best Online Classes With Us</h2>
-        <button className="btn btn-primary">
-          <p className="btn-text">Contact Us</p>
-          <span className="square" />
-        </button>
-      </div>
-    </section>
+
 
 
 

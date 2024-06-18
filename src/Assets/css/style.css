@@ -51,7 +51,7 @@ html {
 
 /* =========== COMPONENT =========== */
 
-.btn {
+/* .btn {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: var(--fs-6);
@@ -80,7 +80,46 @@ html {
     height: 40px;
     border-radius: 8px;
     transition: var(--default-transition);
+} */
+.btn {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--fs-6);
+    font-weight: var(--fw-5);
+    border-radius: 8px;
+    color: var(--white);
+    padding: 20px 45px;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: var(--gradient-color); /* Apply the gradient background */
 }
+
+.btn .btn-text {
+    position: relative;
+    z-index: 5;
+}
+
+/* Update the square element to have the gradient background */
+ .btn .square {
+    position: absolute;
+    /* top: 50%;
+    right: 20px; */
+    transform: translateY(-50%);
+    /* width: 40px;
+    height: 40px; */
+    /* border-radius: 8px; */
+    transition: var(--gradient-color);
+    background: var(--gradient-color); 
+} 
+
+/* Change the hover effect for the square element */
+ .btn:hover .square {
+    right: -2px;
+    width: 102%;
+    height: 102%;
+    background: var(--gradient-color); 
+} 
+
 .navbar-brand img {
     max-width: 70px;
     height: auto;
@@ -94,7 +133,7 @@ html {
 
 .btn-primary .square,
 .btn-secondary {
-    background: var(--oxford-blue);
+    background: var(--gradient-color);
 }
 
 /* =========== REUSED CSS =========== */
@@ -833,7 +872,7 @@ html {
 
 /* =========== FEATURES =========== */
 .features {
-    background: var(--oxford-blue);
+    background: var(--gradient-color);
 }
 
 .features-left {
@@ -1233,7 +1272,7 @@ testimonials-right {
 /* =========== FOOTER =========== */
 
 footer {
-    background: var(--oxford-blue);
+    background: var(--gradient-color);
     
 }
 

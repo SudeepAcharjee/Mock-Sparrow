@@ -7,7 +7,6 @@ import Logo from "../../Assets/img/logo.png"
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
-
   return (
     <>
       <header>

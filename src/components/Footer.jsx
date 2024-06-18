@@ -9,17 +9,7 @@ function Footer() {
   return (
     
       <><section className="contact" data-aos="fade-up">
-      <div className="contact-card" id="contact">
-        <img
-          src={ctaBgImg}
-          alt="shape"
-          className="contact-card-bg" />
-        <h2>Start Your Best Online Classes With Us</h2>
-        <button className="btn btn-primary">
-          <p className="btn-text">Contact Us</p>
-          <span className="square" />
-        </button>
-      </div>
+  
       </section>
       <div>
       <br/>
