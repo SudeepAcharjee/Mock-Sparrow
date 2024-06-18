@@ -17,6 +17,7 @@ const Header = () => {
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
+              {/* Add a dropdown list here */}
               {nav.map((list, index) => (
                 <li key={index}>
                   <Link to={list.path}>{list.text}</Link>

@@ -16,12 +16,8 @@ export const nav = [
         path: "https://sudeep-acharjee.me",
       },
     {
-      text: "Resources",
-      path: "/services",
-    },
-    {
       text: "Contact",
-      path: "https://sudeep-acharjee.me",
+      path: "/contact",
     },
     {
       text: "about",

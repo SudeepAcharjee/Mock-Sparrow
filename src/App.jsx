@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Services from './pages/Services';
 import Terms from './pages/Terms';
+
 function App() {
   return (
 

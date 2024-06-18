@@ -47,7 +47,7 @@ const FAQSection = () => {
     ];
 
     return (
-        <div className="faq-section">
+        <div className="faq-section" data-aos="fade-up">
             {/* <h2>Frequently Asked Questions</h2> */}
             <div className="faq-list">
                 {faqData.map((item, index) => (
