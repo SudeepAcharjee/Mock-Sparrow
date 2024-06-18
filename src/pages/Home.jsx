@@ -4,7 +4,7 @@ import '../Assets/css/style.css'
 import '../Assets/css/variable.css'
 import '../Assets/css/media_queries.css'
 import '../Assets/css/animation.css'
-
+import FAQSection from '../components/FAQSection'
 // Import images
 import shape1 from '../Assets/img/shape-1.png';
 import shape2 from '../Assets/img/shape-2.png';
@@ -400,10 +400,11 @@ function Home() {
     <div className="wrapper" data-aos="fade-up">
       <p>The Begninning of a New Asset class</p>
       <h1>Frequently Asked Questions</h1>
-      <div className="faq">
+      
       {/* code here */}
+      <FAQSection />
       </div>
-    </div>
+   
 
 
 
