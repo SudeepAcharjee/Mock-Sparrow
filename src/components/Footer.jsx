@@ -11,18 +11,18 @@ function Footer() {
       <><section className="contact" data-aos="fade-up">
   
       </section>
-      <div>
+       <div>
+     {/* <br/>
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
+      <br/> */}
       </div>
      <footer>
         <div className="footer-grid" data-aos="fade-up">
           <div className="grid-item">
             <div className="footer-logo">
-              <img src={Logo} alt="Mock-Sparrow" />
+              {/* <img src={Logo} alt="Mock-Sparrow" /> */}
               <h1>Mock-Sparrow</h1>
             </div>
             <p className="footer-text">

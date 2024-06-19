@@ -872,8 +872,11 @@ html {
 
 /* =========== FEATURES =========== */
 .features {
-    background: var(--gradient-color);
+    background: var(--cultured);
+    background: radial-gradient(ellipse at left,  hsla(15, 100%, 55%, 0.3), transparent 70%);
 }
+
+
 
 .features-left {
     padding: var(--py) var(--px);
@@ -884,7 +887,7 @@ html {
 }
 
 .features .section-title {
-    color: var(--white);
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -924,7 +927,7 @@ html {
 }
 
 .features-item .item-title {
-    color: var(--white);
+    color: black;
     font-size: var(--fs-4);
     font-weight: var(--fw-7);
     margin-bottom: 10px;
@@ -932,13 +935,13 @@ html {
 
 .features-item .item-text {
     font-family: 'Montserrat', sans-serif;
-    color: hsl(231, 100%, 94%);
+    color: hsl(0, 0%, 0%);
     font-size: var(--fs-6);
     line-height: 1.6;
 }
 
 .features-right {
-    height: 500px;
+    height: 800px;
 }
 
 .features-right img {
@@ -1272,7 +1275,9 @@ testimonials-right {
 /* =========== FOOTER =========== */
 
 footer {
-    background: var(--gradient-color);
+    background: var(--cultured);
+    shape-outside: margin-box;
+    box-shadow: 10px 0 30px hsla(0, 0%, 0%, 0.1);
     
 }
 
@@ -1293,7 +1298,7 @@ footer {
 .footer-text {
     font-family: 'Montserrat', sans-serif;
     font-size: var(--fs-6);
-    color: var(--lavender-blue);
+     color: black;/*var(--lavender-blue); */
     margin-bottom: 35px;
     line-height: 1.6;
 }
@@ -1305,7 +1310,7 @@ footer {
 }
 
 .social-link a {
-    background: hsla(0, 0%, 100%, 0.1);
+    background: hsla(0, 0%, 11%, 0.1);
     width: 45px;
     height: 45px;
     display: flex;
@@ -1316,35 +1321,38 @@ footer {
 }
 
 .social-link a:hover {
-    background: var(--red-orange-color-wheel);
+    background: black;
 }
 
 .social-link ion-icon {
     font-size: 20px;
-    color: var(--white);
+    color: black;
 }
 
 .grid-item .item-heading {
     font-size: var(--fs-4);
-    color: var(--white);
+    color: black;
     margin-bottom: 25px;
 }
 
 .grid-item .list-item:not(:last-child) {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .grid-item .list-item a {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    color: var(--lavender-blue);
+    color: black;
     font-size: var(--fs-6);
+    cursor: pointer;
     transition: var(--default-transition);
 }
 
 .grid-item .list-item a:hover {
     transform: translateX(10px);
     color: var(--red-orange-color-wheel);
+    cursor: pointer;
 }
 
 .grid-item .wrapper {
@@ -1387,18 +1395,20 @@ footer {
 }
 
 .copyright {
-    background: hsl(231, 90%, 8%);
+    background: var(--cultured);
     text-align: center;
-    color: var(--lavender-blue);
+    color: black;
     font-size: var(--fs-6);
     font-family: 'Montserrat', sans-serif;
     padding: 15px var(--py);
     line-height: 1.7;
+    border: 10px;
+    box-shadow: 5px 0 5px hsla(0, 0%, 0%, 0.1);
 }
 
 .copyright a {
     display: inline-block;
-    color: var(--red-orange-color-wheel);
+    color: black;
     transition: var(--default-transition);
 }
 

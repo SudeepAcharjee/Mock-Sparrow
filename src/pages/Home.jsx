@@ -6,6 +6,7 @@ import '../Assets/css/media_queries.css'
 import '../Assets/css/animation.css'
 import FAQSection from '../components/FAQSection'
 import Review from '../components/reviews/Review'
+import Course from '../components/course/Course'
 // Import images
 import shape1 from '../Assets/img/shape-1.png';
 import shape2 from '../Assets/img/shape-2.png';
@@ -152,67 +153,12 @@ function Home() {
     <section className="category" data-aos="fade-up">
       <p className="section-subtitle">Course Category</p>
       <h2 className="section-title">Explore Popular Courses</h2>
-      <ul className="course-item-group">
-        <li className="course-category-item">
-          <div className="wrapper">
-            <img
-              src={courseCategoryIcon2}
-              alt="category icon"
-              className="category-icon default"
-            />
-            <img
-              src={courseCategoryIcon2w}
-              alt="category icon white"
-              className="category-icon hover"
-            />
-          </div>
-          <div className="course-category-content">
-            <h3 className="category-title">
-              <a href="#">UPSC</a>
-            </h3>
-            <p className="category-subtitle">testingnkn </p>
-          </div>
-        </li>
-        <li className="course-category-item">
-          <div className="wrapper">
-            <img
-              src={courseCategoryIcon2}
-              alt="category icon"
-              className="category-icon default"
-            />
-            <img
-              src={courseCategoryIcon2w}
-              alt="category icon white"
-              className="category-icon hover"
-            />
-          </div>
-          <div className="course-category-content">
-            <h3 className="category-title">
-              <a href="#">NPSC</a>
-            </h3>
-            <p className="category-subtitle">Testing </p>
-          </div>
-        </li>
-        <li className="course-category-item">
-          <div className="wrapper">
-            <img
-              src={courseCategoryIcon2}
-              alt="category icon"
-              className="category-icon default"
-            />
-            <img
-             src={courseCategoryIcon2w}
-              alt="category icon white"
-              className="category-icon hover"
-            />
-          </div>
-          <div className="course-category-content">
-            <h3 className="category-title">
-              <a href="#">Others</a>
-            </h3>
-            <p className="category-subtitle">vffevrfw</p>
-          </div>
-        </li>
+      <Course/>
+      {/* <ul className="course-item-group">
+        <Course/>
+         <li className="course-category-item">
+          <Course/>
+        </li>  */}
         {/* <li className="course-category-item">
           <div className="wrapper">
             <img
@@ -272,8 +218,8 @@ function Home() {
             </h3>
             <p className="category-subtitle">testing</p>
           </div> 
-        </li>*/}
-      </ul>
+        </li>
+      </ul>*/}
     </section>
 
 
