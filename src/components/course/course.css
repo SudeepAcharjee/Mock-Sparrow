@@ -50,7 +50,7 @@ h3 {
     text-align: center;
     margin: 10px 0;
     background: linear-gradient(90deg, #E94057, #F27121);
-    -webkit-background-clip: text;
+
     -webkit-text-fill-color: transparent;
 }
 
