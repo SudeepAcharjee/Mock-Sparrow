@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+  
 } */
 
 .mock-container {
@@ -72,6 +72,5 @@ p .free-tests {
     margin: 10px 0;
     padding-bottom: 5%;
 }
-
 
 
