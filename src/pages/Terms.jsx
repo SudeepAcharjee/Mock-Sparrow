@@ -86,7 +86,7 @@ function Terms() {
       </ul>
       <p className="terms terms-text">The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
       <p className="terms terms-text">As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
-      <button className="terms-button" onClick={downloadPDF}>Download asPDF</button>
+      <button className="terms-button" onClick={downloadPDF}>Download as PDF</button>
     </div></>
   );
 }
